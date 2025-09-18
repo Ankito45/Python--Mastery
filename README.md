@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # 🐍 Python Mastery
+=======
+# 🐍 Python -- Mastery
 
 **Python Mastery** – a comprehensive collection of Python programs, concepts, and tools.  
 This repository is designed to help you strengthen your Python fundamentals and advance into more complex topics with hands-on examples.  
@@ -19,3 +22,4 @@ This repository is designed to help you strengthen your Python fundamentals and 
 Clone this repository to your local machine:
 ```bash
 git clone https://github.com/YourUsername/Python-Mastery.git
+>>>>>
