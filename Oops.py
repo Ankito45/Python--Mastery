@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OOPs -> Also called as Object Oriented Programming --- is a way of organizing code that uses objects and classes to represent real-world entities and their behavior.
 #  Object has attributes thing that has specific data and can perform certain actions using methods.
 
@@ -263,7 +262,6 @@ class student:
 s1 = student("Ankit")
 s1.show()
 
-=======
 # OOPs -> Also called as Object Oriented Programming --- is a way of organizing code that uses objects and classes to represent real-world entities and their behavior.
 #  Object has attributes thing that has specific data and can perform certain actions using methods.
 
@@ -527,5 +525,3 @@ class student:
             print("Subjects:",self.sub1, self.sub2)
 s1 = student("Ankit")
 s1.show()
-
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03
