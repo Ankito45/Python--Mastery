@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Initializing a function with def keyword
 # Docstring -> The first string after the function is called the Document string or Docstring in short
 def fun():
@@ -56,7 +55,7 @@ Outer_Function()
 def cube(x): return x*x*x   # without lambda
 cube_l = lambda x : x*x*x  # with lambda
 print(cube(7))
-=======
+
 # Initializing a function with def keyword
 # Docstring -> The first string after the function is called the Document string or Docstring in short
 def fun():
@@ -114,5 +113,4 @@ Outer_Function()
 def cube(x): return x*x*x   # without lambda
 cube_l = lambda x : x*x*x  # with lambda
 print(cube(7))
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03
 print(cube_l(7))
