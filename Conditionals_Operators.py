@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Use of the If statement to check voting eligibility
 age = int(input("Enter your age: "))
 if age >= 18:
@@ -84,7 +83,7 @@ print(a>b,a<b,a==b,a!=b,a>=b,a<=b)
 # Logical Opeartor used to combine Conditional statements
 print(a>b and b<a) # Logical AND operator
 print(a<b or b>a) #Logical OR operator
-=======
+
 # Use of the If statement to check voting eligibility
 age = int(input("Enter your age: "))
 if age >= 18:
@@ -170,5 +169,4 @@ print(a>b,a<b,a==b,a!=b,a>=b,a<=b)
 # Logical Opeartor used to combine Conditional statements
 print(a>b and b<a) # Logical AND operator
 print(a<b or b>a) #Logical OR operator
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03
 print(not(a>b and b<a)) # Logical NOT operator
