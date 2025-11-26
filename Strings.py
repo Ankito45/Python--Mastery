@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # string is a sequence of characters.
-
 s = "Geeks ForGeeks"
 print(s[1]) # access the 2nd Character 
 print(s[-10]) # access the 10th Character from end
@@ -42,7 +40,7 @@ name = "Ankit"
 age = 25
 print(f"My name is {name} and I am {age} years old.") # formatted using f-string
 print("My name is {} and I am {} years old.".format("Alice", 22))
-=======
+
 # string is a sequence of characters.
 
 s = "Geeks ForGeeks"
@@ -87,4 +85,3 @@ age = 25
 print(f"My name is {name} and I am {age} years old.") # formatted using f-string
 print("My name is {} and I am {} years old.".format("Alice", 22))
 
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03

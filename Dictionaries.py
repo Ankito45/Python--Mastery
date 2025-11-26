@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Python dictionary is a data structure that stores the value in key: value pairs. 
 # Values in a dictionary can be of any data type and can be duplicated  whereas Keys can be repeated
 # Keys in dictionary are IMMUTABLE 
@@ -235,12 +234,12 @@ Dist = {}
 res = 0
 for i in range(len(arr)):
     if arr[i] not in Dist:
-=======
+        Dist[arr[i]] = i # adding the index of the element to the dictionary
 # Python dictionary is a data structure that stores the value in key: value pairs. 
 # Values in a dictionary can be of any data type and can be duplicated  whereas Keys can be repeated
 # Keys in dictionary are IMMUTABLE 
-d = {1:'Geeks',2:'For',3:'Geeks'}
-print(d.__len__) # counts the length of the string  
+# d = {1:'Geeks',2:'For',3:'Geeks'}
+# print(d.__len__) # counts the length of the string  
 d1 = dict(a = "Geeks", b = "for", c = "Geeks") # can be created using the 'dict' keyword
 print(d1)
 print(d[1]) # Access using key and retrieve value from key 
@@ -472,5 +471,4 @@ Dist = {}
 res = 0
 for i in range(len(arr)):
     if arr[i] not in Dist:
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03
         Dist[arr[i]] = i # adding the index of the element to the dictionary

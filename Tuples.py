@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Tuple is a an immutable ordered Collection defined by parentheses -> '()'
 # Tuples can contain any data type, including other tuples
 tup1 = (1, 2, 3, 4, 5)
@@ -35,7 +34,7 @@ print(tup[::-1]) # Reversing the complete tuple from end to start
 print(tup[4:9]) # Making a tuple from the sliced part
 print(len(tup)) # to find the length of the tuple
 del tup1 # used for deleting a tuple after deleting -> print(tup1) generates an error
-=======
+
 # Tuple is a an immutable ordered Collection defined by parentheses -> '()'
 # Tuples can contain any data type, including other tuples
 tup1 = (1, 2, 3, 4, 5)
@@ -72,4 +71,3 @@ print(tup[::-1]) # Reversing the complete tuple from end to start
 print(tup[4:9]) # Making a tuple from the sliced part
 print(len(tup)) # to find the length of the tuple
 del tup1 # used for deleting a tuple after deleting -> print(tup1) generates an error
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03

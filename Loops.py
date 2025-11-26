@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # The use of For loops for the range function and also including the else Statements
 # # The range function generates a sequence of numbers, which can be iterated over using a for loop
 # n = 4
@@ -66,7 +65,6 @@ n = int(input("Enter the range of table : "))
 i=0
 while i<n:
         i += 1
-=======
 # The use of For loops for the range function and also including the else Statements
 # # The range function generates a sequence of numbers, which can be iterated over using a for loop
 # n = 4
@@ -134,5 +132,4 @@ n = int(input("Enter the range of table : "))
 i=0
 while i<n:
         i += 1
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03
         print(f"{x} * {i} = {x * i}")

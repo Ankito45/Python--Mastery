@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # a list is a built-in dynamic sized array (automatically grows and shrinks).
 # List can contain duplicate items.
 # List in Python are Mutable. Hence, we can modify, replace or delete the items.
@@ -284,7 +283,6 @@ for i in range(1,n-k+1):
     ones_in_window += arr[i + k - 1] - arr[i - 1]
     if ones_in_window > max_ones:
         max_ones = ones_in_window # swap at index 1 to index 4 
-=======
 # a list is a built-in dynamic sized array (automatically grows and shrinks).
 # List can contain duplicate items.
 # List in Python are Mutable. Hence, we can modify, replace or delete the items.
@@ -570,5 +568,4 @@ for i in range(1,n-k+1):
     ones_in_window += arr[i + k - 1] - arr[i - 1]
     if ones_in_window > max_ones:
         max_ones = ones_in_window # swap at index 1 to index 4 
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03
 print(k - max_ones) # Minimum swaps required to group all 1s together in the array
