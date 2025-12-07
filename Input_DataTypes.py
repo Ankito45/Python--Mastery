@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 a = 5
 b = 2.3
 c = 2 + 4j
@@ -30,7 +29,7 @@ print(set1)
 d = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 print(type(d))
 print(d[1])  # Accessing the value associated with key 1\
-=======
+
 a = 5
 b = 2.3
 c = 2 + 4j
@@ -62,5 +61,4 @@ print(set1)
 d = {1: 'Geeks', 2: 'For', 3: 'Geeks'}
 print(type(d))
 print(d[1])  # Accessing the value associated with key 1\
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03
 print(d.get(2))  # Using get method to access the value associated with key 2
