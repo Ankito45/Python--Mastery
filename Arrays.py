@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Array in python -> collection of items of the same,mutable,indexed and allows duplicates 
 # But while considering the array in python we use the list data type but actually to use the properties of the 
 # complete array we use the numpy array module in python
@@ -162,7 +161,7 @@ n = int(input())
 for i in range(n):
     if checkprime(i):
         print(i)
-=======
+
 # Array in python -> collection of items of the same,mutable,indexed and allows duplicates 
 # But while considering the array in python we use the list data type but actually to use the properties of the 
 # complete array we use the numpy array module in python
@@ -326,4 +325,3 @@ n = int(input())
 for i in range(n):
     if checkprime(i):
         print(i)
->>>>>>> d5a4f36590f1dec64f6b24f7307b0aa4ccb2ff03
