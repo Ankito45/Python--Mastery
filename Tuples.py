@@ -3,6 +3,11 @@
 tup1 = (1, 2, 3, 4, 5)
 tup = (tup1)
 print(tup)
+# Add tuple to a tuple. 
+# Tuples are immutable so we cannot change them but we can concatenate two tuples to form a new tuple
+thistuple = ("apple", "banana", "cherry")
+y = ("orange",)
+print(thistuple + y)
 print(tup is tup1)  # This print True bcz tup is pointing to the same object as tup1
 # Type conversion of list to tuple and also vice versa
 li = [1, 2, 3, 4, 5]
