@@ -48,6 +48,8 @@ print(z)
 x = [2] # create a list with repeated elements using the multiplication operator.
 print(x*5)
 
+
+# Updating elements in a list
 T = []
 T.append(10)  # Adding 10 to end of list -> append()
 print("After append(10):", T)  
@@ -58,12 +60,20 @@ print("After extend([15, 20, 25]):", T)
 T[2] = 100 # updating elements
 print(T) 
 
-# List Comprehension -> a concise way to create lists in python using a single line of code.   
+# List Comprehension -> a concise way to create lists in python using a single line of code. 
+# The input is taken to the right and the output is generated to the left side of the for loop. 
+# -> [(output expression) (for loop) (condition1 condition2)]  
 squares = [x*2 for x in range(10)]  # creating a list of squares of numbers from 0 to 9
 print("List Comprehension:", squares)
 list1 = [2,3,4,5,6] # -> another way to approach list Comprehension
 new_list = [x**3 for x in list1]  # creating a new list with squares of even numbers
 print("New List with squares of even numbers:", new_list)
+new_even_list = [str(i) + " even" if i%2 == 0 else str(i) + " odd" for i in range(10)]
+print(new_even_list)
+print([[i for i in range(1,6)] for i in range(1,4)])  # nested list comprehension where the outer runs from 1 to 5 for 3 times
+# Now flatter the above list 
+flat_list = [item for sublist in [[i for i in range(1,6)] for i in range(1,4)] for item in sublist]
+print("Flattened List:", flat_list)
 
 
 
