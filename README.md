@@ -15,4 +15,4 @@
 Clone this repository to your local machine:
 ```bash
 git clone https://github.com/YourUsername/Python-Mastery.git
->>>>>
+```
